@@ -43,6 +43,7 @@ export class MovieCarouselComponent implements OnInit, AfterViewInit {
     }
 
     return new Swiper(this.swiperContainer.nativeElement, {
+      // direction:'horizontal',
       slidesPerView: 3,
       slidesPerGroup: 2,
       centeredSlides: true,
