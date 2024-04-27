@@ -1,6 +1,6 @@
-<div class="container px-20 mt-14 mb-20">
+<div class="px-20 mt-14 mb-20">
     <p class="font-semibold text-2xl my-3 ml-3">{{title}}</p>
-    <div #swiperContainer class="swiper-container">
+    <div #swiperContainer class="swiper-container" style=" overflow-x: scroll;">
       <div class="swiper-wrapper">
         <ng-container *ngFor="let movie of videoContents">
           <div (mouseenter)="setHoverMovie(movie)" (mouseleave)="clearHoverMovie()" class="swiper-slide relative">
